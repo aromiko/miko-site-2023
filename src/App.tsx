@@ -1,13 +1,10 @@
-// import Footer from 'components/Footer';
-import { Footer, Header } from 'components';
-
+import { PageRouter } from 'utils';
 import React from 'react';
 
 const App: React.FC = () => {
   return (
     <React.Fragment>
-      <Header />
-      <Footer />
+      <PageRouter />
     </React.Fragment>
   );
 };
